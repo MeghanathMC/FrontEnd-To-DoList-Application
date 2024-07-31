@@ -1,3 +1,47 @@
+# Todo List Application
+
+## Overview
+
+This is a simple Todo List application built using React. It allows users to add, update, and complete tasks. The tasks can be searched and are displayed in an expandable list format.
+
+## System Design
+
+The application consists of the following components:
+- **AddTask:** Handles adding new tasks.
+- **Task:** Represents a single task.
+- **TaskList:** Manages the list of tasks, including search functionality.
+
+The tasks data is stored in a dummy JSON file and managed using React state.
+
+## Implementation
+
+- **Add Task:** Users can add a new task with a title and description.
+- **Update Task:** Users can update the title and description of existing tasks.
+- **Mark as Done:** Users can mark tasks as completed.
+- **Search Tasks:** Users can search tasks by title.
+- **Expandable List:** Tasks are displayed in an expandable format, showing the description and last update timestamp when expanded.
+
+## Setup and Run Instructions
+
+1. Clone the repository:
+    ```bash
+    git clone <repository-url>
+    cd todo-list-app
+    ```
+
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
+
+3. Start the application:
+    ```bash
+    npm start
+    ```
+
+4. Open the application in your browser at `http://localhost:3000`.
+
+
 <<<<<<< HEAD
 # Getting Started with Create React App
 
